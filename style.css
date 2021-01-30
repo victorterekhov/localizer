@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+:focus {
+  outline: 0;
+}
+
+body {
+  background: sandybrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Lora", serif;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fefefe;
+  text-align: center;
+}
+
+hr {
+  height: 0;
+  border: 1px solid slategray;
+}
+
+select {
+  background: limegreen;
+}
